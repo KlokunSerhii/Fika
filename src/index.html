@@ -14,6 +14,8 @@
 </head>
 
 <body>
+  <div id="particles-js"></div>
+
   <div class="wrapper">
     <header class="header">
       <img class="header__logo" src="./images/photo_2023-04-30_22-36-19.jpg" alt="logo">
@@ -34,14 +36,35 @@
     <main class="main">
       <aside class="sidebar">
         <h2 class="sidebar__title">Меню</h2>
-        <ul class="sidebar__list">
-          <li class="sidebar__item">Салати</li>
-          <li class="sidebar__item">Салати</li>
-          <li class="sidebar__item">Салати</li>
-          <li class="sidebar__item">Салати</li>
-          <li class="sidebar__item">Салати</li>
-          <li class="sidebar__item">Салати</li>
-        </ul>
+        <select class="sidebar__list">
+          <option disabled="disabled" selected="selected" class="sidebar__item">Salat</option>
+          <option class="sidebar__item">1</option>
+          <option class="sidebar__item">2</option>
+          <option class="sidebar__item">3</option>
+          <option class="sidebar__item">4</option>
+        </select>
+        <select class="sidebar__list">
+          <option disabled="disabled" selected="selected" class="sidebar__item">Burgers</option>
+          <option class="sidebar__item">1</option>
+          <option class="sidebar__item">2</option>
+          <option class="sidebar__item">3</option>
+          <option class="sidebar__item">4</option>
+        </select>
+        <select class="sidebar__list">
+          <option disabled="disabled" selected="selected" class="sidebar__item">Pizza</option>
+          <option class="sidebar__item">1</option>
+          <option class="sidebar__item">2</option>
+          <option class="sidebar__item">3</option>
+          <option class="sidebar__item">4</option>
+        </select>
+        <select class="sidebar__list">
+          <option disabled="disabled" selected="selected" class="sidebar__item">Deserth</option>
+          <option class="sidebar__item">1</option>
+          <option class="sidebar__item">2</option>
+          <option class="sidebar__item">3</option>
+          <option class="sidebar__item">4</option>
+        </select>
+        <button type="button" class="button">Замовити</button>
       </aside>
       <section class="content">
         <h1 class="content__title">Скандинавське кафе Fika</h1>
@@ -55,58 +78,32 @@
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque doloribus fugit soluta, reiciendis cumque
           fugiat quos non hic cum, quas aliquid beatae, facere quia odio architecto illum! Repudiandae veritatis
           incidunt, id earum delectus animi consectetur asperiores. In dolorum tenetur deleniti voluptatem officiis
-          fugit blanditiis facilis ratione quidem officia praesentium cumque cum consequatur quae assumenda dolorem non,
+          fugit blanditiis facilis ratione quidem officia praesentium cumque cum consequatur quae assumenda dolorem
+          non,
           doloribus quod impedit unde sed repellendus. Assumenda doloribus, quia quasi neque exercitationem quas a
           repellendus repellat non distinctio consectetur consequuntur deserunt quo amet natus minima tempore sunt
           obcaecati aliquam animi veniam? Recusandae corrupti, reiciendis obcaecati facilis, inventore veritatis
           praesentium ratione, voluptatem quo animi quia?</p>
-        <section class="gallery">
-          <ul class="gallery__items">
-            <li class="gallery__item gallery__item-big">
-              <img src="./images/204169100_1862167933933472_8794860518865073302_n.jpg" alt="foto">
-            </li>
-            <li class="gallery__item">
-              <img src="./images/204169100_1862167933933472_8794860518865073302_n.jpg" alt="foto">
-            </li>
-            <li class="gallery__item">
-              <img src="./images/204169100_1862167933933472_8794860518865073302_n.jpg" alt="foto">
-            </li>
-            <li class="gallery__item">
-              <img src="./images/204169100_1862167933933472_8794860518865073302_n.jpg" alt="foto">
-            </li>
-            <li class="gallery__item">
-              <img src="./images/204169100_1862167933933472_8794860518865073302_n.jpg" alt="foto">
-            </li>
-            <li class="gallery__item">
-              <img src="./images/204169100_1862167933933472_8794860518865073302_n.jpg" alt="foto">
-            </li>
-            <li class="gallery__item ">
-              <img src="./images/204169100_1862167933933472_8794860518865073302_n.jpg" alt="foto">
-            </li>
-            <li class="gallery__item">
-              <img src="./images/204169100_1862167933933472_8794860518865073302_n.jpg" alt="foto">
-            </li>
-            <li class="gallery__item">
-              <img src="./images/204169100_1862167933933472_8794860518865073302_n.jpg" alt="foto">
-            </li>
-            <li class="gallery__item">
-              <img src="./images/204169100_1862167933933472_8794860518865073302_n.jpg" alt="foto">
-            </li>
-            <li class="gallery__item">
-              <img src="./images/204169100_1862167933933472_8794860518865073302_n.jpg" alt="foto">
-            </li>
-            <li class="gallery__item gallery__item-big">
-              <img src="./images/204169100_1862167933933472_8794860518865073302_n.jpg" alt="foto">
-            </li>
-            <li class="gallery__item ">
-              <img src="./images/204169100_1862167933933472_8794860518865073302_n.jpg" alt="foto">
-            </li>
-            <li class="gallery__item ">
-              <img src="./images/204169100_1862167933933472_8794860518865073302_n.jpg" alt="foto">
-            </li>
-
-          </ul>
-        </section>
+        <div class="gallery">
+          <a href="./images/foto1.jpg" class="gallery__item gallery__item-big">
+            <img src="./images/foto1.jpg" alt="foto">
+          </a>
+          <a href="./images/foto2.jpg" class="gallery__item">
+            <img src="./images/foto2.jpg" alt="foto">
+          </a>
+          <a href="./images/foto3.jpg" class="gallery__item">
+            <img src="./images/foto3.jpg" alt="foto">
+          </a>
+          <a href="./images/foto4.jpg" class="gallery__item gallery__item-big">
+            <img src="./images/foto4.jpg" alt="foto">
+          </a>
+          <a href="./images/foto5.jpg" class="gallery__item">
+            <img src="./images/foto5.jpg" alt="foto">
+          </a>
+          <a href="./images/foto6.jpg" class="gallery__item">
+            <img src="./images/foto6.jpg" alt="foto">
+          </a>
+        </div>
       </section>
     </main>
     <footer class="footer">
@@ -132,7 +129,11 @@
       </section>
     </footer>
   </div>
-
+  <script src="particles.min.js"> </script>
+  <script>/* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
+    particlesJS.load('particles-js', 'assets/particles.json', function () {
+      console.log('callback - particles-js config loaded');
+    });</script>
 </body>
 
 </html>
